@@ -73,7 +73,7 @@ body{
      width: 178px;
      height: 26px;
      background:#345C85;
-     background-image: url('/images/searchicon.png');
+     background-image: url('https://sheffturner.github.io/uamockup/images/searchicon.png');
      background-position: 159px 7px;
      background-repeat: no-repeat;
      border: none;
@@ -138,7 +138,7 @@ body{
      width: 153px;
      height: 31px;
      border: 1px solid white;
-     background-image: url("/images/warningicon.png");
+     background-image: url("https://sheffturner.github.io/uamockup/images/warningicon.png");
      background-repeat: no-repeat;
      background-position: 9px 6px;
      font-size: 14px;
@@ -203,8 +203,8 @@ body{
  div#mileageplus{
      margin-left: 3px;
      background: #EDB72B;
-     background-image: url("/images/usericon.png"),
-     url("/images/plusicon1.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/usericon.png"),
+     url("https://sheffturner.github.io/uamockup/images/plusicon1.PNG");
      background-repeat: no-repeat, no-repeat;
      background-position: 151px 10px, 152px 152px;
      float:left;
@@ -218,8 +218,8 @@ body{
  
  div#booktravel{
      background-color: #2172BA;
-     background-image: url("/images/airplaneicon.PNG"), 
-     url("/images/arrowicon.PNG"),url("/images/baggageicon2.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/airplaneicon.PNG"), 
+     url("https://sheffturner.github.io/uamockup/images/arrowicon.PNG"),url("https://sheffturner.github.io/uamockup/images/baggageicon2.PNG");
      background-repeat: no-repeat, no-repeat, no-repeat;
      background-position: 341px 9px, 262px 94px, 194px 268px;
      float:left;
@@ -358,13 +358,13 @@ body{
  }
  
  #departdate, #returndate{
-     background-image: url("/images/calendaricon.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/calendaricon.PNG");
      background-repeat: no-repeat;
      background-position: 146px 3px;
  }
  
  #numoftravelers{
-     background-image: url("/images/arrowdownicon.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/arrowdownicon.PNG");
      background-repeat: no-repeat;
      background-position: 148px 6px;
      color:#333333;
@@ -384,7 +384,7 @@ body{
      box-sizing: border-box;
      -webkit-appearance:none;
      -moz-appearance:none;
-     background-image: url("/images/arrowdownicon.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/arrowdownicon.PNG");
      background-repeat: no-repeat;
      background-position: 148px 6px;
  }
@@ -455,7 +455,7 @@ body{
      margin-top: 19px;
      width: 100%;
      height:95px;
-     background-image: url("/images/unitedad.png");
+     background-image: url("https://sheffturner.github.io/uamockup/images/unitedad.png");
      background-repeat: no-repeat;
      background-position: fill;
  }
@@ -465,8 +465,8 @@ body{
  div#flightstatus{
      background: #002244;
      color: #fff;
-     background-image: url("/images/clockicon.PNG"),
-     url("/images/plusicon2.PNG");
+     background-image: url("https://sheffturner.github.io/uamockup/images/clockicon.PNG"),
+     url("https://sheffturner.github.io/uamockup/images/plusicon2.PNG");
      background-repeat: no-repeat, no-repeat;
      background-position: 149px 10px, 152px 152px;
      float: left;
@@ -476,7 +476,7 @@ body{
      width: 177px !important;
      background: #003399;
      color: #fff;
-     background-image:url("/images/checkicon.png"),
+     background-image:url("https://sheffturner.github.io/uamockup/images/checkicon.png"),
      url("/images/plusicon3.PNG");
      background-position: 152px 11px, 150px 152px;
      background-repeat: no-repeat, no-repeat;
@@ -486,15 +486,15 @@ body{
      background: #666666;
      color: #fff;
      float:left;
-     background-image:url("/images/baggageicon.png"),
-     url("/images/plusicon4.PNG");
+     background-image:url("https://sheffturner.github.io/uamockup/images/baggageicon.png"),
+     url("https://sheffturner.github.io/uamockup/images/plusicon4.PNG");
      background-position: 150px 10px, 152px 152px;
      background-repeat: no-repeat;
  }
  
  #advert2{
      width: 177px !important;
-     background-image:url("/images/unitedad2.png");
+     background-image:url("https://sheffturner.github.io/uamockup/images/unitedad2.png");
      background-repeat: no-repeat;
      background-position: fill;
  }
