@@ -477,7 +477,7 @@ body{
      background: #003399;
      color: #fff;
      background-image:url("https://sheffturner.github.io/uamockup/images/checkicon.png"),
-     url("/images/plusicon3.PNG");
+     url("https://sheffturner.github.io/uamockup/images/plusicon3.PNG");
      background-position: 152px 11px, 150px 152px;
      background-repeat: no-repeat, no-repeat;
  }
