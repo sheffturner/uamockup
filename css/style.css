@@ -9,7 +9,7 @@ body{
  background image. */
  section.sectionTop{
      height: 717.95px;
-     background-image: url('/images/unitedhome.jpg');
+     background-image: url('https://sheffturner.github.io/uamockup/images/unitedhome.jpg');
      background-repeat: no-repeat;
      background-position: 50% 2%;  
  }
