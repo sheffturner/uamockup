@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>United Airlines</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="/images/myfavicon.ico" />
+        <script src="https://use.fontawesome.com/355e8b821f.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section class="sectionTop">
+                <div class="main-wrapper">
+                    <header>
+                        <nav class="topnav">     
+                            <ul>
+                                <li>
+                                    <img src="/images/globe.PNG" alt="globeicon">
+                                    <a class="headerlink" href="">United States | English</a>
+                                </li>
+                                <li><a class="headerlink" href="">Saved trips</a></li>
+                                <li><a class="headerlink" href="">Contact us</a></li>
+                                <li><a class="headerlink" href="" id="signin">Sign in</a></li>
+                            </ul>
+
+                            <input type="text" placeholder="Search">
+                        </nav>
+
+                        <div id="logo">
+                            <img src="/images/logo.png" alt="">
+                        </div>
+
+                        <div id="traveladv">
+                            <span>Travel advisories</span>
+                        </div>
+
+                        <nav class="mainnav">    
+                            <ul>
+                                <li><a class="headerlink" href="">Reservations</a></li>
+                                <li><a class="headerlink" href="">Travel information</a></li>
+                                <li><a class="headerlink" href="">Deals &amp; offers</a></li>
+                                <li><a class="headerlink" href="">MileagePlus</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <main>
+                        <div id="main-heading">Welcome to united.com</div>
+         
+                        <div class="blockattrib smallblock" id="mileageplus">
+                            <span>MileagePlus: <br> Sign in or join</span>
+                        </div>
+
+                        <div class="blockattrib blockfontcol largeblock" id="booktravel">
+                            <div id="bktravelheading">
+                                <span> Book travel</span>
+                            </div>
+
+                            <nav class="booktravelnav">
+                                    <ul>
+                                        <li class="active" id="flight"><a class="mainlink" href="">Flight</a></li>
+                                        <li id="hotel"><a class="mainlink" href="">Hotel</a></li>
+                                        <li id="car"><a class="mainlink" href="">Car</a></li>
+                                        <li id="cruise"><a class="mainlink" href="">Cruise</a></li>
+                                        <li id="vacation"><a class="mainlink" href="">Vacation</a></li>
+                                    </ul>
+                            </nav>
+                           
+                            <form action="" id="flightform">
+                                
+                                <input type="radio" name="" id="roundtrip" checked>
+                                <label for="roundtrip" class="radiostyle">Roundtrip</label>
+
+                                <input type="radio" name="" id="oneway">
+                                <label for="oneway" class="radiostyle">One-way</label>
+
+                                <a href="" id="multicitylink" class="linkstyle">Multi-city</a>
+                                <span id="recentsearch">Recent searches</span>
+                                
+                                <br>
+
+                                <input type="text" name="" id="" placeholder="From*" class="fstyletext">
+                                <input type="text" name="" id="" placeholder="To*" class="fstyletext">
+                                <br>
+
+                                <input type="checkbox" name="" id="flexiblebox">
+                                <label for="flexiblebox" class="checkboxstyle">My dates are flexible</label>
+                                <br>
+
+                                <input type="text" name="" id="departdate" placeholder="Depart date*" class="fstyletext">
+                                <input type="text" name="" id="returndate" placeholder="Return date*" class="fstyletext">
+                                <br>
+
+                                <input type="text" name="" id="numoftravelers" placeholder="1 adult" class="fstyleselect">
+                                <select name="" id="" class="fstyleselect">
+                                    <option value="volvo">Economy</option>
+                                    <option value="saab">Business or First</option>
+                                </select>
+                                <br>
+
+                                <input type="checkbox" name="" id="searchbox">
+                                <label for="searchbox" class="checkboxstyle">Search for award travel</label>
+                                
+                               <div id="changebagdiv">
+                                <a href="" class="changebaglink">Changed bag rules </a> 
+                                <span class="changebaglink">and</span> 
+                                <a href="" class="changebaglink"> optional services</a>
+                                </div>
+                                <br>
+
+                                <input type="checkbox" name="" id="nonstopbox">
+                                <label for="nonstopbox" class="checkboxstyle">Nonstop</label>
+                                <br>
+                                <br>
+
+                                <a href="" class="linkstyle" id="searchlink">All search options</a>
+                                <input type="button" value="Search">
+                            </form>
+
+                            <div id="advert"></div>      
+                        </div>
+
+                        <div class="smallblock blockattrib" id="flightstatus">
+                            <span>Flight status</span>
+                        </div>
+
+                        <div class="smallblock blockattrib" id="checkin">
+                            <span>Check-in</span>
+                        </div>
+
+                        <div class="smallblock blockattrib" id="mytrips">
+                                <span>My trips</span>
+                        </div>
+
+                        <div class="smallblock blockattrib" id="advert2">
+                            
+                        </div>
+                    </main>
+                </div>
+            </section>
+
+            <section class="sectionBottom">
+                <div id="footertop">
+                    <div class="triangleactive"></div>
+                    <div class="footer-content-wrapper">
+                            <nav id="footernav">
+                                <ul>
+                                    <li><a href="" class="footerlink">About United</a></li>
+                                    <li><a href="" class="footerlink">Products &amp; services</a></li>
+                                    <li><a href="" class="footerlink">Popular destinations</a></li>
+                                    <li><a href="" class="footerlink">Important notices</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+                <div id="footermiddle">
+                    <div class="footer-content-wrapper">
+                        <div id="corporateinfo" class="footercolumn">
+                            <span class="footerlinkheader">Corporate information</span>
+                            <nav>
+                                <ul>
+                                    <li><a href="">Shared Purpose &amp; Values</a></li>
+                                    <li><a href="">Newsroom</a></li>
+                                    <li><a href="">Investor relations</a></li>
+                                    <li><a href="">Leadership team</a></li>
+                                    <li><a href="">United Express partners</a></li>
+                                    <li><a href="">Global alliances</a></li>
+                                    <li><a href="">Careers</a></li>
+                                    <li><a href="">Diversity and inclusion</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="media" class="footercolumn">
+                            <span class="footerlinkheader">Media &amp; partners</span>
+                            <nav>
+                                <ul>
+                                    <li><a href="">Advertise with us</a></li>
+                                    <li><a href="">Branding</a></li>
+                                    <li><a href="">United Shop</a></li>
+                                    <li><a href="">Global citizenship</a></li>
+                                    <li><a href="">Social media</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="business" class="footercolumn">
+                            <span class="footerlinkheader">Business services</span>
+                            <nav>
+                                <ul>
+                                    <li><a href="">MileagePlus Explorer Business Card</a></li>
+                                    <li><a href="">MileagePlus Club Card for Business</a></li>
+                                    <li><a href="">Corporate travel expense management</a></li>
+                                    <li><a href="">United PassPlus</a></li>
+                                    <li><a href="">United PerksPlus</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div id="footerbottom">
+                    <div class="footer-content-wrapper">
+                        <div id="fbcol1" class="fbcolfloat">
+                            <nav>
+                                <ul>
+                                    <li><a href="">Contract of carriage</a></li>
+                                    <li><a href="">Lengthy tarmac delay plan</a></li>
+                                    <li><a href="">Legal information</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="fbcol2" class="fbcolfloat">
+                            <nav>
+                                <ul>
+                                    <li><a href="">Our United Customer Commitment</a></li>
+                                    <li><a href="">Special travel needs</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="fbcol3" class="fbcolfloat">
+                            <nav>
+                                <ul>
+                                    <li><a href="">Travel agents</a></li>
+                                    <li><a href="">Cargo</a></li>
+                                    <li><a href="">Site map</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="fbcol4" class="fbcolfloat">
+                            <span id="fbcol4header">STAY CONNECTED</span>
+                            <nav>
+                                <ul>
+                                    <li id="mobile"><a href=""></a></li>
+                                    <li id="hub"><a href=""></a></li>
+                                    <li id="fb"><a href=""><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                                    <li id="twitter"><a href="www.twitter.com"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                                    <li id="youtube"><a href=""><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a></li>
+                                    <li id="instagram"><a href=""><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                                    <li id="linkdin"><a href=""><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="fbcol5"></div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+        </div>
+    </body>
+</html>
