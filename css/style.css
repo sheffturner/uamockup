@@ -1,4 +1,4 @@
- /*The following styling is */
+/*The following styling is */
 
 body{
     margin: 0;
@@ -6,7 +6,8 @@ body{
  }
 
  *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
  }
  
  /* First section, sectionTop contains the united airlines
@@ -502,7 +503,7 @@ body{
  }
  
  #advert2{
-     width: 177px !important;
+     width: 185px !important;
      background-image:url("https://sheffturner.github.io/uamockup/images/unitedad2.PNG");
      background-repeat: no-repeat;
      background-position: fill;
@@ -696,12 +697,3 @@ body{
      font-weight: 700;
      padding-bottom: 30px;
  }
-
- 
- 
- 
- 
- 
- 
-
-
