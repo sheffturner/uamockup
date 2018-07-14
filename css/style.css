@@ -1,14 +1,18 @@
-/*The following styling is */
+ /*The following styling is */
 
 body{
     margin: 0;
     padding: 0;
  }
+
+ *{
+    box-sizing: border-box;
+ }
  
  /* First section, sectionTop contains the united airlines
  background image. */
  section.sectionTop{
-     height: 717.95px;
+     height: 716px;
      background-image: url('https://sheffturner.github.io/uamockup/images/unitedhome.jpg');
      background-repeat: no-repeat;
      background-position: 50% 2%;  
@@ -18,7 +22,7 @@ body{
  div.main-wrapper, div.footer-content-wrapper{
      font-family: 'Open Sans', sans-serif;
      margin: 0 auto;
-     width: 945px;
+     width: 70%;
      height: 100%;
  }
  
@@ -70,8 +74,8 @@ body{
  }
  
  .topnav input[type="text"]{
-     width: 178px;
-     height: 26px;
+     width: 189px;
+     height: 29px;
      background:#345C85;
      background-image: url('https://sheffturner.github.io/uamockup/images/searchicon.PNG');
      background-position: 159px 7px;
@@ -146,7 +150,7 @@ body{
      font-weight: 400;
      color: #fff;
      float: right;
-     margin-top: 25px;
+     margin-top: 26px;
      margin-right: 1px;
      -webkit-box-sizing: border-box;
              box-sizing: border-box;
@@ -155,7 +159,7 @@ body{
  
  nav.mainnav{
      position:relative;
-     top: 47px;
+     top: 51px;
  }
  
  .mainnav a{
@@ -171,7 +175,7 @@ body{
      line-height: 40px;
      color: #fff;
      font-weight: 300;
-     margin-top: 76px;
+     margin-top: 78px;
      margin-left: 2px;
      margin-bottom: 10px;
  
@@ -190,8 +194,8 @@ body{
  }
  
  div.smallblock{
-     height: 177px;
-     width: 179px;
+     height: 188px;
+     width: 188px;
      padding: 11px 0px 0px 9px;
  }
  
@@ -211,7 +215,7 @@ body{
  }
  
  div.largeblock{
-     height: 457px;
+     height: 377px;
      width: 380px;
      padding: 11px 0px 0px 0px;
  }
@@ -219,7 +223,8 @@ body{
  div#booktravel{
      background-color: #2172BA;
      background-image: url("https://sheffturner.github.io/uamockup/images/airplaneicon.PNG"), 
-     url("https://sheffturner.github.io/uamockup/images/arrowicon.PNG"),url("https://sheffturner.github.io/uamockup/images/baggageicon2.PNG");
+     url("https://sheffturner.github.io/uamockup/images/arrowicon.PNG"),
+     url("https://sheffturner.github.io/uamockup/images/baggageicon2.PNG");
      background-repeat: no-repeat, no-repeat, no-repeat;
      background-position: 341px 9px, 262px 94px, 194px 268px;
      float:left;
@@ -232,8 +237,7 @@ body{
      height: 30px;
      width:360px;
      margin-top: 17px;
-     margin-left: 1px;
-     padding-left: 9px;
+     margin-left: 10px;
  }
  
  div#bktravelheading{
@@ -249,6 +253,7 @@ body{
      width: 72px;
      height: inherit;
      box-sizing: border-box;
+     padding-top: 8px;
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
      background: #175082;
@@ -259,20 +264,17 @@ body{
  }
  
  a.mainlink{
-     -webkit-box-sizing: border-box;
-             box-sizing: border-box;
-     padding-top: 8px;
-     color: #fff;
-     text-decoration: none;
-     display:block;
-     height: inherit;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
  }
- 
- li#flight a{
-     background: black;
-     border-top: 1px solid white;
-     padding-top:7px;
-     padding-left: 20px;
+
+ li#flight{
+    padding-left: 20px;
+    background: black;
+    border-top: 1px solid white;
+    padding-top: 7px;
  }
  
  li#hotel{
@@ -300,9 +302,9 @@ body{
  
  /* Radiobutton styles */
  input[type="radio"]{
-     width: 16px;
-     height: 16px;
-     margin-top: 14px;
+     width: 17px;
+     height: 17px;
+     margin-top: 13px;
      margin-left: 1px;
  }
  
@@ -311,14 +313,15 @@ body{
      line-height: 14px;
      font-weight:400;
      position: relative;
+     margin-right: 3px;
      top: -4px;
-     left: -5px;
+     left: -4px;
  }
  
  a#multicitylink{
      position: relative;
      top: -6px;
-     left: 19px;
+     left: 16px;
  }
  
  .linkstyle{
@@ -334,33 +337,37 @@ body{
      font-weight: 400;
      position:relative;
      top: -6px;
-     left: 42px;
+     left: 40px;
  }
  
  #flightform input[type="text"]{
-     width: 164px;
-     height: 28px;
+     width: 173px;
+     height: 30px;
      margin-top: 8px;
      margin-left: 1px;
-     margin-right: 6px;
+     margin-right: 5px;
      margin-bottom: 2px;
      border: none;
-     color:#808080;
-     font-size: 12px;
-     font-weight: 400;
-     font-family: 'Open Sans', sans-serif;
      padding-left: 9px;
+     padding-top: 0;
  }
  
  /* USE PLACEHOLDERSTYLE */
  .fstyletext{
      line-height: 16px;
+     color:#808080;
+     font-size: 12px;
+     font-weight: 400;
  }
  
  #departdate, #returndate{
      background-image: url("https://sheffturner.github.io/uamockup/images/calendaricon.PNG");
      background-repeat: no-repeat;
      background-position: 146px 3px;
+ }
+
+ #returndate, #cabinoption, #todest{
+     padding-left: 10px !important;
  }
  
  #numoftravelers{
@@ -391,6 +398,8 @@ body{
  
  .fstyleselect{
      line-height: 30px;
+     font-size: 12px;
+     font-weight: 400;
      color:blue;
  }
  
@@ -409,7 +418,7 @@ body{
      font-weight: 400;
      position: relative;
      top: -2px;
-     left: -6px;
+     left: -4px;
      margin-right: 40px;
  }
  
@@ -454,7 +463,7 @@ body{
  div#advert{
      margin-top: 19px;
      width: 100%;
-     height:95px;
+     height:93px;
      background-image: url("https://sheffturner.github.io/uamockup/images/unitedad.PNG");
      background-repeat: no-repeat;
      background-position: fill;
@@ -473,7 +482,7 @@ body{
  }
  
  div#checkin{
-     width: 177px !important;
+     width: 185px !important;
      background: #003399;
      color: #fff;
      background-image:url("https://sheffturner.github.io/uamockup/images/checkicon.PNG"),
@@ -541,7 +550,7 @@ body{
  
  div#footermiddle{
      width: 100%;
-     height: 216px;
+     height: 228px;
      background: #006BA6;
      padding-top: 12px;
  
@@ -550,7 +559,7 @@ body{
  div#footerbottom{
      padding-top: 13px;
      width: 100%;
-     height: 138px;
+     height: 151px;
      background: #E6E6E6;
  }
  
@@ -563,12 +572,12 @@ body{
      padding: 0;
      margin: 0;
      position:relative;
-     top: -4px;
+     top: -2px;
  }
  
  .footercolumn{
      height: 202px;
-     width: 170px;
+     width: 182px;
      float:left;
      padding-right:11px;
      border-right: 1px solid #81BAE9;
@@ -576,7 +585,11 @@ body{
  }
  
  #footermiddle nav{
-     padding-top:2px;
+     padding-top:7px;
+ }
+
+ #footermiddle li{
+     padding-bottom: 4px;
  }
  
  #footermiddle a{
@@ -589,11 +602,12 @@ body{
  
  div#media{
      padding-left: 12px;
+     width: 193px;
  }
  
  div#business{
      border-right: none;
-     width: 260px;
+     width: 285px;
      padding-left: 12px;
  
  }
@@ -682,6 +696,7 @@ body{
      font-weight: 700;
      padding-bottom: 30px;
  }
+
  
  
  
