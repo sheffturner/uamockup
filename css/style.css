@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
  }
 
  *{
@@ -13,6 +14,7 @@ body{
  /* First section, sectionTop contains the united airlines
  background image. */
  section.sectionTop{
+     width: 100%;
      height: 716px;
      background-image: url('https://sheffturner.github.io/uamockup/images/unitedhome.jpg');
      background-repeat: no-repeat;
