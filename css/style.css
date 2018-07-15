@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
  }
 
  *{
@@ -17,8 +18,12 @@ body{
      height: 716px;
      background-image: url('https://sheffturner.github.io/uamockup/images/unitedhome.jpg');
      background-repeat: no-repeat;
-     background-position: 50% 2%;  
+     background-position: 50% 2%; 
+     width: 100%; 
  }
+ section.sectionBottom{
+ width: 100%;
+}
  
  /*main-wrapper contains all information on the webpage */
  div.main-wrapper, div.footer-content-wrapper{
@@ -27,21 +32,23 @@ body{
      width: 945px;
      height: 100%;
  }
+ #topnav img{
+ position: relative;
+ top: 5px;
+}
  
- 
- nav.topnav{
-     width: 606px;
-     height: 34px;
+nav#topnav{
+
      float: right;
-     position:relative;
-     left: 15px;
  }
- 
+ nav#topnav ul{
+    float:left;
+}
+
  ul{
      list-style: none;
      padding: 0;
      margin: 0;
-     float: left;
  }
  
  li{
@@ -53,29 +60,25 @@ body{
      padding-right: 23px;
  }
  
- img{
-     position: relative;
-     top: 5px;
-     
- }
+
  
  a.headerlink, .footerlink{
      color: #fff !important;
      text-decoration: none;
  }
  
- .topnav a{
+ #topnav a{
      font-size: 12px;
      font-weight: 400;
      line-height: 34px;
      padding-right: 23px;
  }
  
- .topnav a:hover{
+ #topnav a:hover{
      text-decoration: underline;
  }
  
- .topnav input[type="text"]{
+ #topnav input[type="text"]{
      width: 189px;
      height: 29px;
      background:#345C85;
@@ -85,10 +88,11 @@ body{
      border: none;
      padding: 3px 0px 0px 11px;
      color: #fff;
+     float: right;
  }
  
  /* STYLE FOR PLACEHOLDER */
- .topnav ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ #topnav ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
      color:#fff;
      opacity: 1; /* Firefox */
      font-size: 12px;
@@ -97,7 +101,7 @@ body{
      font-style: normal;
      font-family: 'Open Sans', sans-serif;
  }
- .topnav :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ #topnav :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
      color:#fff;
      opacity: 1; /* Firefox */
      font-size: 12px;
@@ -106,7 +110,7 @@ body{
      font-style: normal;
      font-family: 'Open Sans', sans-serif;
  }
- .topnav ::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ #topnav ::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
      color:#fff;
      opacity: 1; /* Firefox */
      font-size: 12px;
@@ -115,7 +119,7 @@ body{
      font-style: normal;
      font-family: 'Open Sans', sans-serif;
  }
- .topnav ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ #topnav ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
      color:#fff;
      opacity: 1; /* Firefox */
      font-size: 12px;
@@ -125,20 +129,19 @@ body{
      font-family: 'Open Sans', sans-serif;
  }
  
- .topnav :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ #topnav :-ms-input-placeholder { /* Internet Explorer 10-11 */
      color:#fff;
  }
  
- .topnav ::-ms-input-placeholder { /* Microsoft Edge */
+ #topnav ::-ms-input-placeholder { /* Microsoft Edge */
      color:#fff;
  }
  
  /* HEADER UNITED LOGO SYTLE */
- 
- div#logo{
-     position:relative;
-     top: 35px;
- }
+ div#clear{
+    clear:both;
+    height: 6px;
+}
  
  div#traveladv{
      width: 153px;
@@ -152,19 +155,20 @@ body{
      font-weight: 400;
      color: #fff;
      float: right;
-     margin-top: 26px;
+     margin-top: 23px;
      margin-right: 1px;
      -webkit-box-sizing: border-box;
              box-sizing: border-box;
      padding: 5px 0 0 32px;
  }
  
- nav.mainnav{
-     position:relative;
-     top: 51px;
+ #mainnav{
+    margin-top: 11px;
  }
- 
- .mainnav a{
+ #mainnav ul{
+    overflow: hidden;
+ }
+ #mainnav a{
      line-height: 18px;
      font-size: 13px;
      font-weight: 400;
@@ -173,14 +177,17 @@ body{
  
  /* MAIN HEADER STYLE */
  div#main-heading{
-     font-size: 30px;
-     line-height: 40px;
-     color: #fff;
-     font-weight: 300;
-     margin-top: 78px;
-     margin-left: 2px;
-     margin-bottom: 10px;
- 
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+ }
+ div#main-heading h1{
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
  }
  
  /* MAIN CONTENT BLOCKS STYLE  padding: 10px 0px 0px 3px;*/
@@ -230,6 +237,7 @@ body{
      background-repeat: no-repeat, no-repeat, no-repeat;
      background-position: 341px 9px, 262px 94px, 194px 268px;
      float:left;
+     height: 100%;
  }
  
  nav.booktravelnav{
@@ -698,3 +706,109 @@ body{
      font-weight: 700;
      padding-bottom: 30px;
  }
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  
+    div.main-wrapper, div.footer-content-wrapper{
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+    
+  }
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 767px) {
+  
+    section.sectionTop{
+        height: 716px;
+        background-image: url('/images/unitedhome.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 2%;
+        width: 1000px;
+    }
+
+    div#footertop{
+        width: 1000px;
+        height: 39px;
+        background: #002244;
+    }
+
+    div#footermiddle{
+        width: 1000px;
+    }
+    
+    div#footerbottom{
+        width: 1000px;
+    }
+  }
+
+  @media (min-width: 768px) {
+  
+    section.sectionTop{
+        height: 716px;
+        background-image: url('/images/unitedhome.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 2%;
+        width: 1150px;
+    }
+
+    div#footertop{
+        width: 1150px;
+        height: 39px;
+        background: #002244;
+    }
+
+    div#footermiddle{
+        width: 1150px;
+    }
+    
+    div#footerbottom{
+        width: 1150px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+  
+    section.sectionTop{
+        height: 716px;
+        background-image: url('/images/unitedhome.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 2%;
+        width: 100%;
+    }
+
+    div#footertop{
+        width: 100%;
+        height: 39px;
+        background: #002244;
+    }
+
+    div#footermiddle{
+        width: 100%;
+    }
+    
+    div#footerbottom{
+        width: 100%;
+    }
+  }
+
+
+ 
+ 
+ 
+ 
+ 
+
+
