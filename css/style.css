@@ -27,7 +27,7 @@ body{
  
  /*main-wrapper contains all information on the webpage */
  div.main-wrapper, div.footer-content-wrapper{
-     font-family: 'Open Sans', sans-serif;
+
      margin: 0 auto;
      width: 945px;
      height: 100%;
